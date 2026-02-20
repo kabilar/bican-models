@@ -9,7 +9,6 @@ theme:
     - content.tabs.link
 plugins:
   - search
-  - mermaid2
 
 nav:
   - Overview: index.md
@@ -26,3 +25,10 @@ nav:
     - Assertion Evidence: assertion_evidence.md
     - BKE Taxonomy: bke_taxonomy.md
 repo_url: https://github.com/brain-bican/models
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
