@@ -1,4 +1,5 @@
 site_name: "BICAN Knowledge Graph Models Documentation"
+site_url: https://brain-bican.github.io/models/
 theme:
   name: material
   palette:
