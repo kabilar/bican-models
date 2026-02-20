@@ -9,6 +9,8 @@ theme:
     - content.tabs.link
 plugins:
   - search
+  - mermaid2
+  - panzoom
 
 nav:
   - Overview: index.md
